@@ -1,0 +1,39 @@
+.container {
+  padding: 20px;
+}
+
+.back {
+  margin-bottom: 15px;
+  display: inline-block;
+  text-decoration: none;
+  color: blue;
+}
+
+.back:hover {
+  text-decoration: underline;
+}
+
+.error {
+  color: red;
+}
+
+.card {
+  border: 1px solid #ccc;
+  padding: 15px;
+}
+
+.flag {
+  font-size: 56px;
+  line-height: 1;
+}
+
+.title {
+  margin: 12px 0 14px;
+  font-size: 26px;
+}
+
+.list {
+  margin: 0;
+  padding-left: 18px;
+  line-height: 1.7;
+}

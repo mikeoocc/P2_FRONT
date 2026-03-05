@@ -1,0 +1,18 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  color: black;
+}
+
+.card:hover {
+  background-color: #f5f5f5;
+}
+
+.flag {
+  font-size: 32px;
+}
+
+.name {
+  margin-top: 5px;
+}
