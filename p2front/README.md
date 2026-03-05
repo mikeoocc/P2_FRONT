@@ -5,7 +5,9 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 # Estructura
 
 -> src
+
   -> app
+  
     -> page.tsx - Página principal con lista y buscador de países.
     
     -> country
