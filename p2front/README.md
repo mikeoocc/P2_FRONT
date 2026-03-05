@@ -7,18 +7,25 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 -> src
   -> app
     -> page.tsx - Página principal con lista y buscador de países.
+    
     -> country
+    
       -> [name]
+      
         -> page.tsx - Página dinámica con detalle de un país.
         
   -> components
+  
     -> CountryCard.tsx - Componente reutilizable para mostrar cada país.
     
   -> lib
+  
     -> api
+    
       -> countries.ts - Funciones para utilizar la API.
 
   -> types
+  
     -> country.ts - Definición de tipos, en concreto para el objeto que almacene los datos de cada país según la API y el enunciado.
 
 # Guía
