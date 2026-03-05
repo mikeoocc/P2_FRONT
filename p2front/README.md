@@ -1,36 +1,31 @@
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-## Getting Started
+## Explorador de países
 
-First, run the development server:
+# Estructura
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+-> src
+  -> app
+    -> page.tsx - Página principal con lista y buscador de países.
+    -> country
+      -> [name]
+        -> page.tsx - Página dinámica con detalle de un país.
+        
+  -> components
+    -> CountryCard.tsx - Componente reutilizable para mostrar cada país.
+    
+  -> lib
+    -> api
+      -> countries.ts - Funciones para utilizar la API.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+  -> types
+    -> country.ts - Definición de tipos, en concreto para el objeto que almacene los datos de cada país según la API y el enunciado.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+# Guía
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+  1. Clonar el repo: git clone https://github.com/mikeoocc/P2_FRONT/edit/master/p2front.git
+  2. Entrar en la carpeta
+  3. Instalar dependencias: npm install
+  4. Ejecutar: npm run dev
+  5. Abrir en http://localhost:3000
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
